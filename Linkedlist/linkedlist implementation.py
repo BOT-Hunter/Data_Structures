@@ -1,0 +1,33 @@
+import linkedlist as ll
+
+if __name__=="__main__":
+	e1 = ll.Node(1)
+	e2 = ll.Node(2)
+	e3 = ll.Node(3)
+	e4 = ll.Node(4)
+	e5 = ll.Node(5)
+	e6 = ll.Node(6)
+
+	llist = ll.linkedlist()
+	llist.append(e1)
+	llist.append(e2)
+	llist.append(e3)
+	llist.append(e4)
+	llist.append(e5)
+	llist.append(e6)
+	llist.printlist()
+	llist.pop()
+	llist.insert(3, e6)
+	llist.printlist()
+	print(llist.get(llist.size()))
+	print(llist.get_first())
+	print(llist.get_last())
+	# llist.delete(llist.size()
+	# llist.append(e3)
+	# print(llist.to_array())
+
+	llist2 = ll.linkedlist()
+	print(llist2.get_first())
+	print(llist2.get_last())
+	llist2.insert(1, ll.Node(1))
+	llist2.printlist()
