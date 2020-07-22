@@ -1,6 +1,6 @@
 This is the readme file for Stack data structure.
 
-It contains only one class namely "Stack".
+This data structure contains only one class namely "Stack".
 Methods:
 - push() --> pushes an element at the top of the stack.
 - pop() --> removes and returns the top element from the stack.
