@@ -8,7 +8,7 @@ if __name__=="__main__":
 	e5 = ll.Node(5)
 	e6 = ll.Node(6)
 
-	llist = ll.linkedlist()
+	llist = ll.Linkedlist()
 	llist.append(e1)
 	llist.append(e2)
 	llist.append(e3)
